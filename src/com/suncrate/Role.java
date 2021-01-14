@@ -2,6 +2,16 @@ package com.suncrate;
 
 public class Role {
     int id; // 角色id
+    int age;
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     int blood; // 生命值
     String name; // 角色名称
     Weapon weapon;
